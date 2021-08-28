@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="F:\Web Notes and Projects\bootstrap\css\bootstrap5.css">
+    <title>Document</title>
+    <style>
+        .adiv{
+            background-image:repeating-linear-gradient(45deg ,#2196f3 0 10px,blue  10px  20px);
+            height:10vh;
+            width:76.6vw;
+            /* animation:moving-strips 1s linear infinite; */
+            animation-name: movingStrips;
+            animation-duration:15s;
+            animation-timing-function:linear;
+            animation-iteration-count:infinite;
+            animation-direction:reverse;
+        }
+        @keyframes movingStrips{
+            
+           
+            to{
+                background-position:80vw  ;
+            }
+          
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="mt-5 row  adiv">
+
+        </div>
+    </div>
+</body>
+</html>
